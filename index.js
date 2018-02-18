@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = 'process.env.TOKEN';
-const config = require('./config.json');
 const Google = require('./commands/google');
 
 client.on('ready', function () {
