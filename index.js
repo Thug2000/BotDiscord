@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = 'process.env.TOKEN';
-const Google = require('./commands/google');
+const Google = require('./google');
 
 client.on('ready', function () {
   client.user.setActivity('maintenance').catch(console.error)
