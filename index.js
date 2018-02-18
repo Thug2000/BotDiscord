@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDE0MTM3MTYxMDUxNTM3NDA4.DWi-1A.VWNyyv2Kf1t2l4lRmZ0Ej8CYCzk';
+const token = 'process.env.TOKEN';
 const config = require('./config.json');
 const Google = require('./commands/google');
 
